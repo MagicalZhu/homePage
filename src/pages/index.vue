@@ -20,7 +20,7 @@ const { t } = useI18n()
         <div i-carbon:notebook />
       </a>
 
-      <a class="icon-btn mx-2" href="https://blog.huakucha.top" :title="t('home.blog')">
+      <a class="icon-btn mx-2" href="https://blog.huakucha.top" :title="t('home.blog')" target="_blank">
         <div i-carbon:text-annotation-toggle />
       </a>
 
