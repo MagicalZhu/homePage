@@ -1,6 +1,5 @@
 import {
   defineConfig,
-  presetAttributify,
   presetIcons,
   presetTypography,
   presetUno,
@@ -8,6 +7,8 @@ import {
   transformerDirectives,
   transformerVariantGroup,
 } from 'unocss'
+
+import presetAttributify from '@unocss/preset-attributify'
 
 export default defineConfig({
   shortcuts: [

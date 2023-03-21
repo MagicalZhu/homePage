@@ -1,14 +1,7 @@
-button:
-  about: About
-  back: Back
-  go: GO
-  home: Home
-  toggle_dark: Toggle dark mode
-  toggle_langs: Change languages
+home:
+  wiki: Wiki
+  blog: blog
+  toggle_dark: Toggle
 intro:
-  desc: Hi!Here is Athu Home Site~
-  dynamic-route: Demo of dynamic route
-  hi: Hi, {name}!
-  aka: Also known as
-  whats-your-name: What's your name?
+  desc: Hi~ Here is Athu Homepage 👋
 not-found: Not found
