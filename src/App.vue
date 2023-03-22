@@ -8,7 +8,7 @@ useHead({
     { name: 'description', content: 'Athu Home Site' },
     {
       name: 'theme-color',
-      content: computed(() => isDark.value ? '#00aba9' : '#ffffff'),
+      content: computed(() => isDark.value ? '#818CF8' : '#ffffff'),
     },
   ],
   link: [
