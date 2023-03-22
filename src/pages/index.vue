@@ -16,7 +16,7 @@ const { t } = useI18n()
       {{ t('intro.desc') }}
     </p>
     <nav text-2xl mt-6>
-      <a class="icon-btn mx-2" href="https://www.huakucha.top" :title="t('home.wiki')" target="_blank">
+      <a class="icon-btn mx-2" href="https://wiki.huakucha.top" :title="t('home.wiki')" target="_blank">
         <div i-line-md:text-box />
       </a>
 
