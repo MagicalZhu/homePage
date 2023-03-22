@@ -13,9 +13,14 @@ title: About
 ```js
 // syntax highlighting example
 function vitesse() {
-  const foo = 'bar'
+  const foo = 'bar1'
   console.log(foo)
 }
 ```
 
 Check out the [GitHub repo](https://github.com/antfu/vitesse) for more details.
+
+<route lang="yaml">
+meta:
+  layout: default
+</route>

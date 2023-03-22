@@ -4,15 +4,15 @@ const { t } = useI18n()
 
 <template>
   <div class="flex flex-col items-center min-h-[calc(80vh-44px)] justify-center">
-    <div text-4xl>
-      <div i-carbon:fingerprint-recognition inline-block text-green-300 />
+    <div text-6xl>
+      <div i-carbon:fingerprint-recognition inline-block text-red-200 />
     </div>
     <!--
       <p text-2xl mt-1>
         Athu
       </p>
     -->
-    <p text-xl opacity-45 mt-1>
+    <p text-base opacity-45 mt-1>
       {{ t('intro.desc') }}
     </p>
     <nav text-xl mt-6>

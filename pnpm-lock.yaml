@@ -15,6 +15,7 @@ specifiers:
   eslint-plugin-cypress: ^2.12.1
   https-localhost: ^4.7.1
   lint-staged: ^13.2.0
+  markdown-it-link-attributes: ^4.0.1
   markdown-it-shiki: ^0.8.0
   nprogress: ^0.2.0
   pinia: ^2.0.33
@@ -66,6 +67,7 @@ devDependencies:
   eslint-plugin-cypress: 2.12.1_eslint@8.36.0
   https-localhost: 4.7.1
   lint-staged: 13.2.0
+  markdown-it-link-attributes: 4.0.1
   markdown-it-shiki: 0.8.0
   pnpm: 7.30.0
   shiki: 0.14.1
@@ -6220,6 +6222,10 @@ packages:
     transitivePeerDependencies:
       - bluebird
       - supports-color
+    dev: true
+
+  /markdown-it-link-attributes/4.0.1:
+    resolution: {integrity: sha512-pg5OK0jPLg62H4k7M9mRJLT61gUp9nvG0XveKYHMOOluASo9OEF13WlXrpAp2aj35LbedAy3QOCgQCw0tkLKAQ==}
     dev: true
 
   /markdown-it-shiki/0.8.0:

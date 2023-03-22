@@ -1,5 +1,9 @@
 {
-  "cSpell.words": ["Vitesse", "Vite", "unocss", "vitest", "vueuse", "pinia", "demi", "antfu", "iconify", "intlify", "vitejs", "unplugin", "pnpm"],
+  "cSpell.words": [
+    "Vitesse", "Vite", "unocss", "vitest", "vueuse", "pinia",
+    "demi", "antfu", "iconify", "intlify", "vitejs", "unplugin", "pnpm",
+    "Athu", "athu"
+  ],
   "i18n-ally.sourceLanguage": "en",
   "i18n-ally.keystyle": "nested",
   "i18n-ally.localesPaths": "locales",
@@ -17,8 +21,8 @@
     "**/.hg": true,
     "**/CVS": true,
     "**/.DS_Store": true,
-    "**/Thumbs.db": true,
-    "**/node_modules": true
+    "**/Thumbs.db": true
+    // "**/node_modules": true
   },
   "editor.formatOnSave": false
 }

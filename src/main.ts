@@ -5,7 +5,7 @@ import App from './App.vue'
 import type { UserModule } from './types'
 import generatedRoutes from '~pages'
 
-import '@unocss/reset/tailwind.css'
+import '../src/styles/tailwind-reset.css'
 import './styles/main.css'
 import 'uno.css'
 
