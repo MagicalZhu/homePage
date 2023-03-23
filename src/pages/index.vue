@@ -33,7 +33,7 @@ const { t } = useI18n()
       <a class="icon-btn mx-2" rel="noreferrer" href="https://github.com/MagicalZhu" target="_blank" title="GitHub">
         <div i-line-md:github />
       </a>
-      <a class="icon-btn mx-2" rel="noreferrer" href="https://m.cmx.im/@athu" target="_blank" title="GitHub">
+      <a class="icon-btn mx-2" rel="noreferrer" href="https://m.cmx.im/@athu" target="_blank" title="Mastodon">
         <div i-line-md:mastodon />
       </a>
     </nav>
