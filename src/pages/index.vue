@@ -1,9 +1,3 @@
-<!--
- * @fileDescription: xxxx
- * @author: 朱玉良
- * @version: V1.0
- * @date: 2023/04/14
--->
 <script setup lang="ts">
 const { t } = useI18n()
 </script>
@@ -18,16 +12,16 @@ const { t } = useI18n()
       {{ t('intro.desc') }}
       </p>
     -->
-    <nav mt-6 grid grid-cols-2>
-      <div font-mono text-lg font-600 text-blue-300>
-        <div py-2>
+    <nav mt-6 grid class="gridLayout">
+      <div font-mono text-lg text-gray-400>
+        <div py-5 font-italic>
           Write:
         </div>
-        <div py-2>
+        <div py-5 font-italic>
           Social:
         </div>
       </div>
-      <div grid grid-cols-3 font-100>
+      <div grid grid-cols-3 text-center>
         <a class="icon-btn" href="https://wiki.huakucha.top" :title="t('home.wiki')" target="_blank">
           <div i-line-md:text-box />
         </a>
@@ -50,11 +44,14 @@ const { t } = useI18n()
   </div>
 </template>
 
-<style>
+<style scoped>
 .icon-btn {
-  @apply  text-2xl text-blueGray-300 cursor-pointer select-none  transition duration-100 ease-in-out pointer-events-auto rounded-md py-1 px-3;
-  @apply hover:text-indigo-200 hover:bg-gray-1;
+  @apply  text-3xl text-gray-300 cursor-pointer select-none  transition duration-100 ease-in-out pointer-events-auto rounded-md p-3;
+  @apply hover:text-indigo-200;
   @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-50;
+}
+.gridLayout {
+  grid-template-columns: 40% 60%;
 }
 </style>
 
